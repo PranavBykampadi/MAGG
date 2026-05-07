@@ -1,0 +1,58 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables and credentials
+.env
+.env.local
+.env.*.local
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Generated pipeline artifacts
+kg_*.json
+kg_*.html
+kg_*.png
+qa_results.json
+org_chart.json
+org_chart_cache.json
+demo_results.json
+
+# Experimental run outputs and caches (download / regenerate locally)
+experiments/**/results/
+experiments/**/raw_data/
+experiments/**/processed_data/
+*.checkpoint.json
+
+# Local data files
+*.txt
+*.pdf
+!README*.txt
