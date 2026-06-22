@@ -87,15 +87,3 @@ MAGG/
 
 The `experiments/` directory contains the build and evaluation scripts used in the paper. The benchmark datasets themselves (SciERC, MuSiQue, HotpotQA) are **not** shipped in this repository; download them from their official sources and point the scripts at the local copies. See `experiments/README.md` for the per-benchmark workflow.
 
-## Citation
-
-If you use MAGG in academic work, please cite:
-
-```bibtex
-@inproceedings{magg2026,
-  title     = {From Extraction to Governed Memory: Multi-Agent Knowledge Graph Construction with Domain-Expert Review},
-  author    = {Bykampadi, Pranav Nagendra and Mokaria, Neel and Narayan, Vishesh and Wajid, Faizan and Agrawala, Ashok},
-  booktitle = {NeurIPS},
-  year      = {2026}
-}
-```
